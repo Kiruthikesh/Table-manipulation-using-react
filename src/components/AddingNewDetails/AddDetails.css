@@ -1,0 +1,33 @@
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; 
+  }
+  
+  .form-row .form-label {
+    flex: 0 0 150px; 
+    margin-right: 1rem;
+  }
+  
+  
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .body {
+    width: 900px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 20px; 
+  }
+  
